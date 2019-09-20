@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfilActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_welcome"
+        android:text="Welcome Home"
+        android:textSize="20dp"
+        android:layout_centerInParent="true"
+        android:textColor="@color/colorPrimaryDark"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/txt_welcome"
+        android:text="Logout"
+        android:id="@+id/btn_logout"
+        android:background="@color/colorPrimary"
+        android:textColor="#ffff"
+        android:textAllCaps="false"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>
